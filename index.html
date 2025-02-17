@@ -8,13 +8,13 @@
 
     <title>PARANORA </title>
 </head>
-<body>
-    <nav class="bg-white shadow-md py-4 px-6 flex items-center justify-between">
+<body class="bg-gray-100">
+    <nav class="bg-white shadow-md py-2 px-6 flex items-center justify-between">
         <!-- Left: Logo -->
         <div class="text-2xl font-bold text-gray-800">PARANORA</div>
         
         <!-- Center: Menu Items -->
-        <ul class="hidden md:flex space-x-12 text-gray-600 font-medium">
+        <ul class="hidden md:flex space-x-6 text-gray-600 font-medium">
             <li><a href="#" class="hover:text-gray-900">Latest Products</a></li>
             <li><a href="#" class="hover:text-gray-900">Our Collection</a></li>
             <li><a href="#" class="hover:text-gray-900">About Us</a></li>
@@ -23,7 +23,7 @@
         </ul>
         
         <!-- Right: Icons -->
-        <div class="flex items-center space-x-6">
+        <div class="flex items-center space-x-2">
             <button class="w-10 h-10 rounded-full">
                 <img src="/Images/search-alt-svgrepo-com.svg" alt="">
             </button>
@@ -37,7 +37,7 @@
     </nav>
   
     <!-- Hero Section -->
-    <section class="bg-gray-100 py-16 px-6">
+    <section class="py-16 px-6">
       <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <!-- First Column -->
           <div>
@@ -102,6 +102,120 @@
               </defs>
           </g>
       </svg>
+  </div>
+</section>
+
+<!-- Navbar with dropdowns and Sort By -->
+<section class="py-8 px-6">
+  <div class="container mx-auto flex items-center justify-between">
+      <!-- Left Side: Dropdowns for Category, Color, and Price -->
+      <div class="flex space-x-6">
+          <!-- Category Dropdown -->
+          <div class="relative">
+              <select class="px-4 py-2 border border-gray-300 rounded-md text-gray-600">
+                  <option>Category</option>
+                  <option>Furniture</option>
+                  <option>Accessories</option>
+                  <option>Appliances</option>
+              </select>
+          </div>
+          
+          <!-- Color Dropdown -->
+          <div class="relative">
+              <select class="px-4 py-2 border border-gray-300 rounded-md text-gray-600">
+                  <option>Color</option>
+                  <option>Red</option>
+                  <option>Blue</option>
+                  <option>Black</option>
+              </select>
+          </div>
+
+          <!-- Price Dropdown -->
+          <div class="relative">
+              <select class="px-4 py-2 border border-gray-300 rounded-md text-gray-600">
+                  <option>Price</option>
+                  <option>£0 - £500</option>
+                  <option>£500 - £1000</option>
+                  <option>£1000+</option>
+              </select>
+          </div>
+      </div>
+
+      <!-- Right Side: Sort By -->
+      <div>
+          <label for="sort" class="text-gray-600">Sort By:</label>
+          <select id="sort" class="px-4 py-2 border border-gray-300 rounded-md text-gray-600">
+              <option value="best-sellers">Best Sellers</option>
+              <option value="price-low-to-high">Price: Low to High</option>
+              <option value="price-high-to-low">Price: High to Low</option>
+          </select>
+      </div>
+  </div>
+</section>
+
+<!-- Four Columns of Product Items -->
+<section class=" px-6">
+  <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+      <!-- Product 1 -->
+      <div class="text-center">
+          <img src="/Images/11.jpeg" alt="EDWIND DINING CHAIR" class="w-full h-auto mb-4">
+          <p class="font-semibold">EDWIND DINING CHAIR</p>
+          <p class="text-gray-600">£723 Regular | £634 Member</p>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="text-center">
+          <img src="/Images/7.jpeg" alt="EDWIND DINING CHAIR" class="w-full h-auto mb-4">
+          <p class="font-semibold">EDWIND DINING CHAIR</p>
+          <p class="text-gray-600">£723 Regular | £634 Member</p>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="text-center">
+          <img src="/Images/6.jpeg" alt="EDWIND DINING CHAIR" class="w-full h-auto mb-4">
+          <p class="font-semibold">EDWIND DINING CHAIR</p>
+          <p class="text-gray-600">£723 Regular | £634 Member</p>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="text-center">
+          <img src="/Images/13.jpeg" alt="EDWIND DINING CHAIR" class="w-full h-auto mb-4">
+          <p class="font-semibold">EDWIND DINING CHAIR</p>
+          <p class="text-gray-600">£723 Regular | £634 Member</p>
+      </div>
+  </div>
+</section>
+
+<!-- Production section2 -->
+<section class="py-16 px-6">
+  <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+      <!-- Product 1 -->
+      <div class="text-center">
+          <img src="/Images/4.jpeg" alt="EDWIND DINING CHAIR" class="w-full h-auto mb-4">
+          <p class="font-semibold">EDWIND DINING CHAIR</p>
+          <p class="text-gray-600">£723 Regular | £634 Member</p>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="text-center">
+          <img src="/Images/2.jpeg" alt="EDWIND DINING CHAIR" class="w-full h-auto mb-4">
+          <p class="font-semibold">EDWIND DINING CHAIR</p>
+          <p class="text-gray-600">£723 Regular | £634 Member</p>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="text-center">
+          <img src="/Images/8.jpeg" alt="EDWIND DINING CHAIR" class="w-full h-auto mb-4">
+          <p class="font-semibold">EDWIND DINING CHAIR</p>
+          <p class="text-gray-600">£723 Regular | £634 Member</p>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="text-center">
+          <img src="/Images/9.jpeg" alt="EDWIND DINING CHAIR" class="w-full h-auto mb-4">
+          <p class="font-semibold">EDWIND DINING CHAIR</p>
+          <p class="text-gray-600">£723 Regular | £634 Member</p>
+      </div>
   </div>
 </section>
 
